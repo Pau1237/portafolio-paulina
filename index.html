@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Paulina Montserrat Rivera Maciel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #e91e63;
+            --secondary-color: #6c5ce7;
+            --background-color: #f5f6fa;
+            --text-color: #2d3436;
+            --light-color: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+            background: var(--light-color);
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+
+        header {
+            background: var(--primary-color);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        header .title {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .contact-item {
+            background: var(--light-color);
+            color: var(--primary-color);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .skills, .language {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill, .language-name {
+            background: var(--background-color);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: #ddd;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 100%;
+            background: var(--secondary-color);
+        }
+
+        .project, .education-item, .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .job-title, .degree {
+            font-weight: 700;
+        }
+
+        .company, .institution {
+            font-style: italic;
+            color: var(--primary-color);
+        }
+
+        footer {
+            background: var(--background-color);
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .btn-download {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Paulina Montserrat Rivera Maciel</h1>
+        <div class="title">Especialista en Marketing Digital</div>
+        <div class="contact-info">
+            <div class="contact-item">📍 Nezahualcóyotl, Ciudad de México</div>
+            <div class="contact-item">📅 22 años</div>
+            <div class="contact-item">📧 macielpaulina991@gmail.com</div>
+            <div class="contact-item">📱 +56 13154484</div>
+        </div>
+        <a href="CV_Paulina_Rivera_Maciel.pdf" class="btn-download" download>📄 Descargar CV en PDF</a>
+    </header>
+
+    <div class="content">
+        <section>
+            <h2>Perfil Profesional</h2>
+            <p>Profesional especializada en Marketing Digital y Entornos Virtuales con formación en Ingeniería de Negocios Digitales. Apasionada por el diseño de contenido visual, creación de videos publicitarios y estrategias de publicidad digital. Persona productiva, orientada a resultados y con capacidad de aprendizaje rápido. Con dominio avanzado del inglés y experiencia en entornos multiculturales.</p>
+        </section>
+
+        <section>
+            <h2>Experiencia Académica</h2>
+            <div class="education-item">
+                <div class="degree">Ingeniería en Entornos Virtuales y Negocios Digitales</div>
+                <div class="institution">Universidad Tecnológica de Nezahualcóyotl - 2024 - 2025</div>
+            </div>
+            <div class="education-item">
+                <div class="degree">Técnico Superior Universitario en Entornos Virtuales y Negocios Digitales</div>
+                <div class="institution">Universidad Tecnológica de Nezahualcóyotl - 2022 - 2024</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Habilidades Clave</h2>
+            <div class="skills">
+                <div class="skill">Marketing Digital</div>
+                <div class="skill">Diseño de Contenido Visual</div>
+                <div class="skill">Producción de Video</div>
+                <div class="skill">Publicidad Digital</div>
+                <div class="skill">Redes Sociales</div>
+                <div class="skill">Google Ads</div>
+                <div class="skill">Facebook Ads</div>
+                <div class="skill">Adobe Creative Suite</div>
+                <div class="skill">Inglés Intermedio</div>
+                <div class="skill">Trabajo en Equipo</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Idiomas</h2>
+            <div>
+                <div class="language">
+                    <span class="language-name">Español</span>
+                    <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+                </div>
+                <div class="language">
+                    <span class="language-name">Inglés</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Proyectos Relevantes</h2>
+            <div class="project">
+                <div class="job-title">Campaña de Marketing Digital</div>
+                <div class="company">Avila International Networking Service - 2024</div>
+                <ul>
+                    <li>Desarrollo e implementación de estrategia de publicidad digital para empresa local.</li>
+                    <li>Creación de contenido visual incluyendo banners, posts y videos promocionales.</li>
+                    <li>Gestín de campañas en Google Ads y Facebook Ads con ROI positivo.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <div class="job-title">Plataforma de transporte enfocada en mujeres - SheRide</div>
+                <div class="company">SheRide - 2025</div>
+                <ul>
+                    <li>Plataforma de movilidad segura para mujeres, operada por y para mujeres.</li>
+                    <li>Fomenta seguridad, empatía y equidad de género en el transporte.</li>
+                    <li><a href="https://sheride.site/" target="_blank">https://sheride.site/</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        © 2025 Paulina Montserrat Rivera Maciel - Todos los derechos reservados
+    </footer>
+</div>
+</body>
+</html>
